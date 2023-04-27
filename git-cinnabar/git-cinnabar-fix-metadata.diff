@@ -1,6 +1,6 @@
 --- git-cinnabar-0.6.1/Cargo.toml	2023-04-27T02:40:14.027659+00:00
 +++ git-cinnabar-0.6.1/Cargo.toml	2023-04-27T02:41:39.378470+00:00
-@@ -71,17 +71,17 @@
+@@ -71,17 +71,14 @@
  version = "1"
  
  [dependencies.clap]
@@ -11,17 +11,16 @@
      "derive",
  ]
  
- [dependencies.clap_lex]
+-[dependencies.clap_lex]
 -version = "=0.3.0"
-+version = "0.3.0"
- 
+-
  [dependencies.cstr]
 -version = "=0.2.10"
 +version = "0.2.10"
  
  [dependencies.derivative]
  version = "2"
-@@ -156,7 +156,7 @@
+@@ -156,7 +153,7 @@
  version = "0.1"
  
  [dependencies.tempfile]
@@ -30,7 +29,7 @@
  
  [dependencies.typenum]
  version = "1"
-@@ -169,7 +169,7 @@
+@@ -169,7 +166,7 @@
  default-features = false
  
  [dev-dependencies.tempfile]
@@ -39,7 +38,7 @@
  
  [build-dependencies.cc]
  version = "1.0.46"
-@@ -194,7 +194,7 @@
+@@ -194,7 +193,7 @@
  default-features = false
  
  [target."cfg(not(windows))".dependencies.filetime]
