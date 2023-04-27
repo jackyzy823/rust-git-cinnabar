@@ -47,13 +47,9 @@ Git remote helper to interact with mercurial repositories.}
 %cargo_build
 
 %install
-# todo 
-# not use cargo install , but manully
-# cause we will install it into {gitexecdir} and symlink to git-remote-hg
 %cargo_install
 install -d %{buildroot}%{gitexecdir}
 mv %{buildroot}%{_bindir}/git-cinnabar  %{buildroot}%{gitexecdir}
-#install -p -m 0755 %{buildroot}%{_bindir}/git-cinnabar %{buildroot}%{gitexecdir}
 cd %{buildroot}%{gitexecdir}
 ln -s git-cinnabar %{buildroot}%{gitexecdir}/git-remote-hg
 
