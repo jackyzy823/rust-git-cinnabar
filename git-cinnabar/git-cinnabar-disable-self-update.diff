@@ -1,0 +1,29 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index c1d6d4d..fb8a821 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -186,23 +186,8 @@ version = "2.0"
+ [features]
+ compile_commands = []
+ curl-compat = []
+-default = ["version-check"]
++default = []
+ gitdev = []
+-self-update = [
+-    "semver",
+-    "shared_child",
+-    "dep:tar",
+-    "dep:xz2",
+-    "dep:zip",
+-    "winapi/handleapi",
+-    "winapi/processthreadsapi",
+-    "winapi/synchapi",
+-    "winapi/winbase",
+-]
+-version-check = [
+-    "semver",
+-    "shared_child",
+-]
+ 
+ [target."cfg(not(windows))".dependencies.curl-sys]
+ version = "0.4"

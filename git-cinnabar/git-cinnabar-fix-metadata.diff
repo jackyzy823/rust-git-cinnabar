@@ -1,0 +1,50 @@
+--- git-cinnabar-0.6.1/Cargo.toml	2023-04-27T02:40:14.027659+00:00
++++ git-cinnabar-0.6.1/Cargo.toml	2023-04-27T02:41:39.378470+00:00
+@@ -71,17 +71,17 @@
+ version = "1"
+ 
+ [dependencies.clap]
+-version = "4.0,<4.0.27"
++version = "4.0"
+ features = [
+     "cargo",
+     "derive",
+ ]
+ 
+ [dependencies.clap_lex]
+-version = "=0.3.0"
++version = "0.3.0"
+ 
+ [dependencies.cstr]
+-version = "=0.2.10"
++version = "0.2.10"
+ 
+ [dependencies.derivative]
+ version = "2"
+@@ -156,7 +156,7 @@
+ version = "0.1"
+ 
+ [dependencies.tempfile]
+-version = "3,<3.4"
++version = "3"
+ 
+ [dependencies.typenum]
+ version = "1"
+@@ -169,7 +169,7 @@
+ default-features = false
+ 
+ [dev-dependencies.tempfile]
+-version = "3,<3.4"
++version = "3"
+ 
+ [build-dependencies.cc]
+ version = "1.0.46"
+@@ -194,7 +194,7 @@
+ default-features = false
+ 
+ [target."cfg(not(windows))".dependencies.filetime]
+-version = "=0.2.16"
++version = "0.2.16"
+ optional = true
+ 
+ [target."cfg(not(windows))".dependencies.libz-sys]

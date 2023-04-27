@@ -1,0 +1,28 @@
+--- git-cinnabar-0.6.1/Cargo.toml	2023-04-27T02:40:14.027659+00:00
++++ git-cinnabar-0.6.1/Cargo.toml	2023-04-27T02:41:03.695330+00:00
+@@ -208,25 +208,3 @@
+ version = "0.1"
+ optional = true
+ 
+-[target."cfg(windows)".dependencies.curl-sys]
+-version = "0.4"
+-features = [
+-    "ssl",
+-    "static-curl",
+-    "rustls",
+-]
+-default-features = false
+-
+-[target."cfg(windows)".dependencies.libz-sys]
+-version = "1"
+-features = ["static"]
+-
+-[target."cfg(windows)".dependencies.winapi]
+-version = "0.3"
+-features = ["winerror"]
+-
+-[target."cfg(windows)".dependencies.zip]
+-version = "0.6"
+-features = ["deflate-zlib"]
+-optional = true
+-default-features = false
