@@ -1,0 +1,10 @@
+--- git-cinnabar-0.7.0/Cargo.toml	1970-01-01T00:00:01+00:00
++++ git-cinnabar-0.7.0/Cargo.toml	2025-03-02T13:11:08.083903+00:00
+@@ -47,7 +47,6 @@
+ compile_commands = []
+ default = [
+     "full-version",
+-    "version-check",
+ ]
+ full-version = [
+     "dep:concat_const",

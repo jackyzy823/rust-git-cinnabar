@@ -2,21 +2,21 @@
 %bcond check 1
 %global debug_package %{nil}
 
-%global crate tee
+%global crate concat_const
 
-Name:           rust-tee
-Version:        0.1.0
+Name:           rust-concat_const
+Version:        0.1.3
 Release:        %autorelease
-Summary:        Adapter for readers which delegate reads to a writer
+Summary:        Const &[u8] and &str concatenation
 
-License:        MIT
-URL:            https://crates.io/crates/tee
+License:        MIT OR Apache-2.0
+URL:            https://crates.io/crates/concat_const
 Source:         %{crates_source}
 
 BuildRequires:  cargo-rpm-macros >= 24
 
 %global _description %{expand:
-An adapter for readers which delegate reads to a writer.}
+Const `&[u8]` and `&str` concatenation.}
 
 %description %{_description}
 
@@ -30,7 +30,7 @@ This package contains library source intended for building other packages which
 use the "%{crate}" crate.
 
 %files          devel
-%license %{crate_instdir}/LICENSE
+# FIXME: no license files detected
 %doc %{crate_instdir}/README.md
 %{crate_instdir}/
 
