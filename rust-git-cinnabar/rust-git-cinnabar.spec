@@ -7,7 +7,7 @@
 %global gitexecdir %{_libexecdir}/git-core
 
 Name:           rust-git-cinnabar
-Version:        0.7.0
+Version:        0.7.1
 Release:        %autorelease
 Summary:        Git remote helper to interact with mercurial repositories
 
