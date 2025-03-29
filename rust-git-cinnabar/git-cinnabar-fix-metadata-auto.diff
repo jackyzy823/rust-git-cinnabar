@@ -1,6 +1,6 @@
---- git-cinnabar-0.7.0/Cargo.toml	1970-01-01T00:00:01+00:00
-+++ git-cinnabar-0.7.0/Cargo.toml	2025-03-02T13:09:47.579464+00:00
-@@ -59,8 +59,6 @@
+--- git-cinnabar-0.7.2/Cargo.toml	1970-01-01T00:00:01+00:00
++++ git-cinnabar-0.7.2/Cargo.toml	2025-03-29T14:14:09.908526+00:00
+@@ -60,8 +60,6 @@
      "dep:concat_const",
      "dep:tar",
      "dep:xz2",
@@ -9,7 +9,7 @@
  ]
  version-check = ["shared_child"]
  
-@@ -241,31 +239,10 @@
+@@ -252,31 +250,10 @@
  version = "0.1"
  optional = true
  
