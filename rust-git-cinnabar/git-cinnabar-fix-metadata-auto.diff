@@ -1,5 +1,5 @@
---- git-cinnabar-0.7.2/Cargo.toml	1970-01-01T00:00:01+00:00
-+++ git-cinnabar-0.7.2/Cargo.toml	2025-03-29T14:14:09.908526+00:00
+--- git-cinnabar-0.7.3/Cargo.toml	1970-01-01T00:00:01+00:00
++++ git-cinnabar-0.7.3/Cargo.toml	2025-07-17T01:09:05.821240+00:00
 @@ -60,8 +60,6 @@
      "dep:concat_const",
      "dep:tar",
@@ -30,8 +30,8 @@
 -features = ["Win32_Foundation"]
 -
 -[target."cfg(windows)".dependencies.zip]
--version = "2"
--features = ["deflate-zlib"]
+-version = "4"
+-features = ["deflate-flate2-zlib"]
 -optional = true
 -default-features = false
 -
