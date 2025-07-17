@@ -5,7 +5,7 @@
 %global crate concat_const
 
 Name:           rust-concat_const
-Version:        0.1.3
+Version:        0.2.0
 Release:        %autorelease
 Summary:        Const &[u8] and &str concatenation
 

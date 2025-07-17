@@ -1,5 +1,5 @@
---- git-cinnabar-0.7.2/Cargo.toml	1970-01-01T00:00:01+00:00
-+++ git-cinnabar-0.7.2/Cargo.toml	2025-03-29T14:14:17.018569+00:00
+--- git-cinnabar-0.7.3/Cargo.toml	1970-01-01T00:00:01+00:00
++++ git-cinnabar-0.7.3/Cargo.toml	2025-07-17T01:09:16.752463+00:00
 @@ -48,7 +48,6 @@
  curl-compat = ["rustflags"]
  default = [
