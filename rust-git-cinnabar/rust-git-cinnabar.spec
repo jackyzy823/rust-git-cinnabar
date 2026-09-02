@@ -7,11 +7,11 @@
 %global gitexecdir %{_libexecdir}/git-core
 
 Name:           rust-git-cinnabar
-Version:        0.7.4
+Version:        0.7.5
 Release:        %autorelease
 Summary:        Git remote helper to interact with mercurial repositories
 
-License:        MPL-2.0 AND GPL-2.0
+License:        MPL-2.0 AND GPL-2.0-only
 URL:            https://crates.io/crates/git-cinnabar
 Source:         %{crates_source}
 # Automatically generated patch to strip dependencies and normalize metadata

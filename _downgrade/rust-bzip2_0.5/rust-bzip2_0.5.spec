@@ -4,7 +4,7 @@
 
 %global crate bzip2
 
-Name:           rust-bzip2
+Name:           rust-bzip2_0.5
 Version:        0.5.2
 Release:        %autorelease
 Summary:        Bindings to libbzip2 for bzip2 compression and decompression exposed as Reader/Writer streams

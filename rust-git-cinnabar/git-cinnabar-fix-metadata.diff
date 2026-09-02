@@ -1,6 +1,6 @@
---- git-cinnabar-0.7.4/Cargo.toml	2006-07-24T01:21:28+00:00
-+++ git-cinnabar-0.7.4/Cargo.toml	2026-04-08T06:40:55.861247+00:00
-@@ -48,7 +48,6 @@
+--- git-cinnabar-0.7.5/Cargo.toml	2006-07-24T01:21:28+00:00
++++ git-cinnabar-0.7.5/Cargo.toml	2026-09-02T01:08:01.461945+00:00
+@@ -50,7 +50,6 @@
  curl-compat = ["rustflags"]
  default = [
      "full-version",
