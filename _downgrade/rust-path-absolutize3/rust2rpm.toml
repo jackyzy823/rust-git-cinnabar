@@ -1,0 +1,2 @@
+[package]
+summary = "Extend Path and PathBuf for getting an absolute path"

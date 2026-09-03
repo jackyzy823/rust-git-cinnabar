@@ -1,0 +1,34 @@
+* Fri Jul 23 2021 Fedora Release Engineering <releng@fedoraproject.org> - 3.0.10-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_35_Mass_Rebuild
+
+* Mon May 10 2021 Fabio Valentini <decathorpe@gmail.com> - 3.0.10-1
+- Update to version 3.0.10.
+- Fixes RHBZ#1952303
+
+* Thu Mar 25 2021 Fabio Valentini <decathorpe@gmail.com> - 3.0.7-1
+- Update to version 3.0.7.
+- Fixes RHBZ#1937766
+
+* Wed Jan 27 2021 Fedora Release Engineering <releng@fedoraproject.org> - 3.0.6-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_34_Mass_Rebuild
+
+* Wed Jul 29 2020 Josh Stone <jistone@redhat.com> - 3.0.6-1
+- Update to 3.0.6
+
+* Wed Jul 29 2020 Fedora Release Engineering <releng@fedoraproject.org> - 3.0.0-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
+
+* Sun Jun 21 09:06:41 CEST 2020 Igor Raits <ignatenkobrain@fedoraproject.org> - 3.0.0-1
+- Update to 3.0.0
+
+* Thu May 28 2020 Josh Stone <jistone@redhat.com> - 2.0.2-1
+- Update to 2.0.2
+
+* Wed May 27 12:12:10 CEST 2020 Igor Raits <ignatenkobrain@fedoraproject.org> - 2.0.1-1
+- Update to 2.0.1
+
+* Wed May 27 07:21:23 CEST 2020 Igor Raits <ignatenkobrain@fedoraproject.org> - 2.0.0-1
+- Update to 2.0.0
+
+* Tue May 26 11:51:56 CEST 2020 Igor Raits <ignatenkobrain@fedoraproject.org> - 1.2.1-1
+- Initial package
